@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-# mainSections = ["section1", "section2"]
+mainSections = ["posts"]
 # robots = ""
 
 disableImageOptimization = false
@@ -66,26 +66,26 @@ defaultBackgroundImage = "img/background.jpg" # used as default for background i
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  # showRelatedContent = false
-  # relatedContentLimit = 3
+  showRelatedContent = false
+  relatedContentLimit = 3
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = true
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
   showViews = false
   showLikes = false
   showTableOfContents = false
-  showCards = false
+  showCards = true
   groupByYear = true
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   constrainItemsWidth = false
 
@@ -114,13 +114,20 @@ defaultBackgroundImage = "img/background.jpg" # used as default for background i
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
+  # apiKey = "AIzaSyDtrl8lfpjxWS8UtNIs8ndyVbvTZof_Ww8"
+  # authDomain = "aq-blog-73e77.firebaseapp.com"
+  # projectId = "aq-blog-73e77"
+  # storageBucket = "aq-blog-73e77.appspot.com"
+  # messagingSenderId = "380280855339"
   # appId = "XXXXXX"
   # measurementId = "XXXXXX"
+    apiKey = "AIzaSyDtrl8lfpjxWS8UtNIs8ndyVbvTZof_Ww8"
+    authDomain = "aq-blog-73e77.firebaseapp.com"
+    projectId = "aq-blog-73e77"
+    storageBucket = "aq-blog-73e77.appspot.com"
+    messagingSenderId = "380280855339"
+    appId = "1:380280855339:web:5fe63294572c5529b5036e"
+    measurementId = "G-N4V10G2H88"
 
 [fathomAnalytics]
   # site = "ABC12345"

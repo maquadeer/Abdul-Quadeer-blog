@@ -11,25 +11,31 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "Posts"
   pageRef = "posts"
   weight = 10
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+[[main]]
+ name = "CS-COURSE"
+ weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+ name = "AI"
+ parent = "CS-COURSE"
+ pageRef = "AI-chapter"
+ weight = 20
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+ name = "CN"
+ parent = "CS-COURSE"
+ pageRef = "CN-chapter"
+ weight = 20
+
+[[main]]
+ name = "DS"
+ parent = "CS-COURSE"
+ pageRef = "DS-chapter"
+ weight = 20
 
 #[[subnavigation]]
 #  name = "An interesting topic"

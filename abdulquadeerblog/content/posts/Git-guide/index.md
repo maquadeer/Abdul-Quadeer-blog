@@ -3,8 +3,7 @@ title: "Git Guide"
 date: 2023-11-05T21:55:57+05:30
 draft: false
 ---
-
-Certainly! Here's a more detailed explanation of commonly used Git commands, along with examples for each:
+# Detailed explanation of commonly used Git commands
 
 ## Configuration
 
