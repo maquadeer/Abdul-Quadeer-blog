@@ -46,8 +46,8 @@ defaultBackgroundImage = "img/background.jpg" # used as default for background i
   layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
-  showDate = false
-  showViews = false
+  showDate = true
+  showViews = true
   showLikes = false
   showDateUpdated = false
   showAuthor = true
@@ -80,8 +80,8 @@ defaultBackgroundImage = "img/background.jpg" # used as default for background i
   layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showTableOfContents = false
   showCards = true
   groupByYear = true
