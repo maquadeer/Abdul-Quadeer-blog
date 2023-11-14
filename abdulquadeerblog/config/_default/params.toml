@@ -114,13 +114,7 @@ defaultBackgroundImage = "img/background.jpg" # used as default for background i
   cardViewScreenWidth = false
 
 [firebase]
-  #apiKey = "AIzaSyDtrl8lfpjxWS8UtNIs8ndyVbvTZof_Ww8"
-  # authDomain = "aq-blog-73e77.firebaseapp.com"
-  # projectId = "aq-blog-73e77"
-  # storageBucket = "aq-blog-73e77.appspot.com"
-  # messagingSenderId = "380280855339"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+ 
 
 [fathomAnalytics]
   # site = "ABC12345"
